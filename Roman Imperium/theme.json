@@ -1,0 +1,216 @@
+{
+  "_cards": false,
+  "_inherit": false,
+  "_variables": {
+    "@alternativeColor": "#e6e6ea",
+    "@axeColor": "#e3dbda",
+    "@axeTitleColor": "#1E2142",
+    "@backgroundColor": "#faf9f9",
+    "@badColor": "#a0859f",
+    "@excludedColor": "#5d5e77",
+    "@fontFamily": "Cinzel",
+    "@goodColor": "#859fa0",
+    "@gridColor": "#ece7e7",
+    "@possibleColor": "#f3f3f5",
+    "@primaryColor": "#A08685",
+    "@selectedExcludedColor": "#373957",
+    "@textColor": "#302828",
+    "@titleColor": "#05082D",
+	"@textSize": "12px",
+	"@titleSize": "16px",
+	"@subtitleSize": "14px"
+  },
+  "customStyles": [
+    {
+      "classRef": "theme-style",
+      "cssRef": "theme.css"
+    }
+  ],
+  "dataColors": {
+    "alternative": "@alternativeColor",
+    "errorColor": "@badColor",
+    "excluded": "@excludedColor",
+    "nullColor": "red",
+    "othersColor": "red",
+    "possible": "@possibleColor",
+    "primaryColor": "@primaryColor",
+    "selected": "@titleColor",
+    "selectedExcluded": "@selectedExcludedColor"
+  },
+  "fontFamily": "@fontFamily",
+  "color": "@textColor",
+  "fontSize": "@textSize",
+  "sheet": {
+    "backgroundColor": "@backgroundColor"
+  },
+  "object": {
+    "title": {
+      "main": {
+        "color": "@titleColor",
+		"fontSize": "@titleSize"
+      }
+    },  
+    "axis": {
+      "label": {
+        "color": "@textColor"
+      },
+      "line": {
+        "major": {
+          "color": "@axeColor"
+        },
+        "minor": {
+          "color": "@axeColor"
+        }
+      },
+      "title": {
+        "color": "@axeTitleColor",
+		"fontSize": "@subtitleSize"
+      }
+    },
+	"grid": {
+      "line": {
+        "highContrast": {
+          "color": "@axeColor"
+        },
+        "major": {
+          "color": "@gridColor"
+        },
+        "minor": {
+          "color": "@gridColor"
+        }
+      }
+    },
+    "label": {
+      "name": {
+        "color": "@textColor"
+      },
+      "value": {
+        "color": "@textColor"
+      }
+    },
+    "distributionPlot": {
+      "box": {
+        "fill": "@axeColor"
+      }
+    },
+    "listBox": {
+      "backgroundColor": "@backgroundColor",
+      "content": {
+        "backgroundColor": "@backgroundColor"
+      }
+    }
+  },
+  "palettes": {
+    "data": [
+      {
+        "name": "Rome XIV",
+        "propertyValue": "1",
+        "scale": [
+          "#a08685",
+          "#e2cdc2",
+          "#907978",
+          "#cbb9af",
+          "#aa9291",
+          "#e5d2c8",
+          "#806b6a",
+          "#b5a49b",
+          "#b39e9d",
+          "#e6d5cb",
+          "#705e5d",
+          "#9e9088",
+          "#bdaaaa",
+          "#ebdcd4"
+        ],
+        "type": "row"
+      }
+    ],
+    "ui": [
+      {
+		"name": "Rome XIV Extenso",
+        "colors": [
+          "#a08685",
+          "#e2cdc2",
+          "#907978",
+          "#cbb9af",
+          "#aa9291",
+          "#e5d2c8",
+          "#806b6a",
+          "#b5a49b",
+          "#b39e9d",
+          "#e6d5cb",
+          "#705e5d",
+          "#9e9088",
+          "#bdaaaa",
+          "#ebdcd4",
+          "@goodColor",
+          "@badColor",
+          "@titleColor",
+          "@textColor",
+          "@axeTitleColor"
+        ]
+      }
+    ]
+  },
+  "scales": [
+    {
+      "name": "Degradatio divergente",
+      "propertyValue": "dg",
+      "scale": [
+        "@goodColor",
+        "@primaryColor",
+        "@badColor"
+      ],
+      "translation": "Degradatio divergente",
+      "type": "gradient"
+    },
+    {
+      "name": "Classis divergens",
+      "propertyValue": "dc",
+      "scale": [
+        "@goodColor",
+        "@primaryColor",
+        "@badColor"
+      ],
+      "translation": "Classis divergens",
+      "type": "class"
+    },
+    {
+      "name": "Gradus Romanus",
+      "propertyValue": "sg",
+      "scale": [
+        "#a08685",
+        "#987f7e",
+        "#907978",
+        "#887271",
+        "#806b6a",
+        "#786564",
+        "#705e5d",
+        "#685756",
+        "#605050",
+        "#584a49",
+        "#504343"
+      ],
+      "translation": "Gradus Romanus",
+      "type": "gradient"
+    },
+    {
+      "name": "Classis Romana",
+      "propertyValue": "sc",
+      "scale": [
+        "#a08685",
+        "#987f7e",
+        "#907978",
+        "#887271",
+        "#806b6a",
+        "#786564",
+        "#705e5d",
+        "#685756",
+        "#605050",
+        "#584a49",
+        "#504343"
+      ],
+      "translation": "Classis Romana",
+      "type": "class"
+    }
+  ]
+}

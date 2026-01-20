@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+.cinzel {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.qv-object-filterpane .folded-listbox  > .MuiGrid-root.MuiGrid-container
+{
+	border: 1px solid #e3dbda;
+	border-radius: 0px;
+}
+
+.qv-object-filterpane .folded-listbox  > .MuiGrid-root.MuiGrid-container:hover
+{
+	border: 1px solid #302828;
+}
+
+.qv-object-filterpane .folded-listbox  > .MuiGrid-root.MuiGrid-container > div > div
+{
+	border-top: 1px solid #e3dbda;
+}
+
+.qv-object-filterpane [data-testid="filterpane-listbox-container"]
+{
+	border: 1px solid e3dbda;
+	border-radius: 0px;
+}
+
+.qv-object-filterpane [data-testid="filterpane-listbox-container"]:hover
+{
+	border: 1px solid #302828;
+
+}
